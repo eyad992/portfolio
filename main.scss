@@ -1,0 +1,279 @@
+$bg-color:rgb(0, 0, 0);
+$font-color:rgb(255, 255, 255);
+$primary-color:rgb(228, 7, 7);
+$dark-overlay:rgba(0,0,0,0.7);
+$text-white:rgb(0,0,0);
+$font-weights:bold;
+$font-family1:'Gloria Hallelujah';
+$font-family2:'Courgette';
+.bod{
+    background:$bg-color;
+    color:$font-color;
+}
+
+.navbar{
+    border-bottom:$primary-color 3px solid;
+    opacity: 0.8;
+}
+.nav-name{
+    color: $primary-color;
+    font-family:$font-family1;
+}
+#home-section{
+    background: url('./images/me.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .dark-overlay{
+        background-color:$dark-overlay;
+        position:absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        min-height:700px;
+    }
+    .home-inner{
+        padding-top: 150px;
+    }
+    .big-wel{
+        font-family: $font-family2;
+    }
+}
+#about-me{
+    background-color:$font-color;
+    .about{
+        color:$primary-color;
+        font-family:$font-family2;
+
+    }
+    .about-text{
+        color:$text-white;
+        
+    }
+} 
+#whatido-section{
+    .what-title{
+        color:$primary-color;
+        font-family:$font-family2;
+    }
+    .what-text{
+        color:$text-white;
+    }
+    .lisst{
+        color:$text-white;
+    }
+}  
+#useless{
+    width: 100%;
+    .carousel-inner{
+        padding: 40px;
+    }
+}
+#skills-section{
+    background-color:white;
+    .skills-title {
+        color: $primary-color;
+        padding-bottom: 30px;
+        font-family:$font-family2;
+
+    }
+    .skillbar {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .skillbar-bar:before {
+        background: #eee;
+        content: "";
+        height: 3px;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .skillbar-bar {
+        height: 3px;
+        width: 0px;
+        background: #323232;
+        transition-property: width, background-color;
+    }
+    
+    .skillbar-title {
+        color: #323232;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    
+    .skill-bar-percent {
+        float: right;
+        display: inline-block;
+        color: #323232;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+
+//     .skills-title{
+//         color:$primary-color;
+//     }
+//     .skills-text{
+//         color:$text-white;
+//     }
+
+//     .hc{
+//         padding: 10px;
+//     }
+//         .prohtmlcss::before{
+//             content:"HTMLCSS";
+//             color:$text-white;
+//             font-weight: $font-weights;
+//     }
+//         .prohtmlcss::after{
+//             margin: 10px;
+//         }
+//         .htcss{
+//             height: 10%;
+//         }
+//     .js{
+//         padding: 10px;
+//     }
+//     .projs::before{
+//         content: "JAVASCRIPT";
+//         color:$text-white;
+//         font-weight: $font-weights;
+
+//     }
+//     .nodjs{
+//         padding: 10px;
+//     }
+//     .pronode::before{
+//         content:"NODE.JS";
+//         color: $text-white;
+//         font-weight: $font-weights;
+
+//     }
+//     .gith{
+//         padding: 10px;
+//     }
+//     .progit::before{
+//         content:"Git & GitHub";
+//         color:$text-white;
+//         font-weight: $font-weights;
+
+//  }
+
+//  .hd{
+//     padding: 10px;
+// }
+//     .prohtmlcss::before{
+//         content:"HTML&CSS";
+//         color:$text-white;
+//         font-weight: $font-weights;
+//         padding-right: 10px;
+// }
+// .sass-scss{
+//     padding: 10px;
+// }
+// .prosac::before{
+//     content: "SASS & SCSS";
+//     color:$text-white;
+//     font-weight: $font-weights;
+//     padding-right: 10px;
+
+
+// }
+// .bootst{
+//     padding: 10px;
+// }
+// .proboot::before{
+//     content:"Bootstrap";
+//     color: $text-white;
+//     font-weight: $font-weights;
+//     padding-right:10px;
+
+// }
+// .jav-jq{
+//     padding: 10px;
+// }
+// .projaq::before{
+//     content:"JavaScript & jQuery";
+//     color:$text-white;
+//     font-weight: $font-weights;
+//     padding-right:10px;
+
+
+// }
+// .aja{
+//     padding:10px;
+// }
+// .proaja{
+//     content:"Ajax";
+//     color:$text-white;
+//     font-weight: $font-weights;
+//     padding-right:10px;
+// }
+// .aja{
+//     padding:10px;
+// }
+// .proaja{
+//     content:"Ajax";
+//     color:$text-white;
+//     font-weight: $font-weights;
+//     padding-right:10px;
+// }
+
+    // .progress .progress-bar{
+    //     background-color:grey;
+    // }
+    // .progress-animate{
+    //     transition: width 2s ease-in-out;
+    // }
+    // .progress-bar{
+    //     justify-content: center;
+    //     text-align: center;
+    //     color:#fff;
+    // }
+.progtext{
+    color: $primary-color;
+    padding-top: 25px;
+}
+}
+#projects-section{
+    .projects-title{
+        color:$primary-color;
+    }
+    .projects1-4{
+        padding: 80px;
+    }
+    .redmore{
+        color:$primary-color;
+    }
+    .blackcoming{
+        color: $text-white;
+    }
+    .blacksoon{
+        color:$text-white;
+    }
+}
+#contact-me{
+    color: $dark-overlay;
+    .contact-title{
+        color:$primary-color;
+        font-family:$font-family2;
+
+    }
+}
+#main-footer{
+    padding-top:50px;
+    .h3{
+        font-family: $font-family1;
+        color: $primary-color;
+    }
+}
