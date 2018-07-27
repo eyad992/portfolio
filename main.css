@@ -34,7 +34,7 @@
 }
 
 #home-section .big-wel {
-  font-family: "Courgette";
+  font-family: "Gloria Hallelujah";
 }
 
 #about-me {
@@ -154,6 +154,30 @@
 #contact-me .contact-title {
   color: #e40707;
   font-family: "Courgette";
+}
+
+#contact-me .contact-us-list {
+  color: white;
+  font-family: "Courgette";
+  list-style-type: none;
+}
+
+#contact-me .te {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#contact-me .em {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#contact-me .wht {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
 }
 
 #main-footer {

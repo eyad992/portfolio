@@ -38,7 +38,7 @@ $font-family2:'Courgette';
         padding-top: 150px;
     }
     .big-wel{
-        font-family: $font-family2;
+        font-family: $font-family1;
     }
 }
 #about-me{
@@ -267,9 +267,33 @@ $font-family2:'Courgette';
     .contact-title{
         color:$primary-color;
         font-family:$font-family2;
+    }
+    .contact-us-list{
+        color:white;
+        font-family:$font-family2;
+        list-style-type: none;
+    
+        }
+    .te{
+        color: white;
+        font-size: 20px;
+        padding:10px;
+    }
+    .em{
+        color:white;
+        font-size: 20px;
+        padding:10px;
 
     }
-}
+    .wht{
+        color:white;
+        font-size: 20px;
+        padding:10px;
+
+    }
+
+    }
+
 #main-footer{
     padding-top:50px;
     .h3{
