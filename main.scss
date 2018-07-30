@@ -262,6 +262,45 @@ $font-family2:'Courgette';
         color:$text-white;
     }
 }
+#hireme-section{
+    .mod-header{
+        background-color: black;
+    }
+    .small-x{
+        color: $primary-color;
+    }
+    .mod-title{
+        color: $primary-color;
+        text-align: center;
+        margin-left: 9em;
+    }
+    .mod-footer{
+        background-color:black; 
+        color: $primary-color;
+    }
+    .fadee{
+        background-color: $text-white;
+    }
+    .contact-us-list-1{
+        list-style-type: none;
+        padding: 10px;
+    }
+    .te1{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .em1{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .wht1{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
 #contact-me{
     color: $dark-overlay;
     .contact-title{

@@ -13,7 +13,8 @@
 
 </head>
 <body id="home" class="bod">
-    <nav class="navbar navbar-inverse bg-inverse navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <!--nav-expand to make it normal-->
+    <nav class="navbar navbar-inverse bg-inverse bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
             <a href="index.html" class="navbar-brand nav-name">Eyad Garro</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -293,8 +294,42 @@
                   <div class="text-center">
                     <h5 class="text-center hireabove">I'm currently available for individual Projects</h5>
                     <h3 class="text-center hireunder">Lets build somthing awesome together</h3>
-                    <button id="con-btn"type="button" class="btn btn-danger text-center" data-target="#contact-me">Hire Me
-                    </button>
+                    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Hire Me</button>
+                    <div class="modal fade text-center " id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog text-center" role="document">
+                        <div class="modal-content text-center">
+                          <div class="modal-header text-center mod-header">
+                            <h5 class="modal-title text-center mod-title">Hire Me</h5>
+                            <button type="button" class="close small-x" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body fadee">
+                            <ul class="contact-us-list-1">
+
+                              <li class="tele1">
+                                <i class="fas fa-phone"></i>
+                                <a class="te1" href="tel:+4917624405162" target="_blank">+49 176 244 05 162</a>
+                              </li>
+            
+            
+                              <li class="email1">
+                                <i class="fas fa-envelope"></i>
+                                <a class="em1" href="mailto:" target="_blank">eyadgarro799@gmail.com</a></li>
+                              
+                              <li class="whatsapp1">
+                               <i class="fab fa-whatsapp"></i>
+                                <a class="wht1" href="https://wa.me/4917624405162?text=" target="_blank">+49 176 244 05 162</a>
+                              </li>
+            
+                            </ul>
+
+
+
+
+                          </div>
+                          <div class="modal-footer mod-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -440,17 +475,17 @@
 
                   <li class="tele">
                     <i class="fas fa-phone"></i>
-                    <a class="te" href="tel:+4917624405162">+49 176 244 05 162</a>
+                    <a class="te" href="tel:+4917624405162" target="_blank">+49 176 244 05 162</a>
                   </li>
 
 
                   <li class="email">
                     <i class="fas fa-envelope"></i>
-                    <a class="em" href="mailto:">eyadgarro799@gmail.com</a></li>
+                    <a class="em" href="mailto:" target="_blank">eyadgarro799@gmail.com</a></li>
                   
                   <li class="whatsapp">
                    <i class="fab fa-whatsapp"></i>
-                    <a class="wht" href="whatsapp://send?text=Hello%2C%20World!">+49 176 244 05 162</a>
+                    <a class="wht" href="https://wa.me/4917624405162?text=" target="_blank">+49 176 244 05 162</a>
                   </li>
 
                 </ul>
@@ -469,21 +504,21 @@
               <ul class="list-inline mb-0">
 
                   <li class="list-inline-item">
-                      <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/eyadgarro">
+                      <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/eyadgarro" target="_blank">
                           <i class="fab fa-twitter"></i>
     
                         </a>
                     </li>
 
                     <li class="list-inline-item">
-                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.xing.com/profile/Eyadg_Garro/cv?sc_o=mxb_p">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.xing.com/profile/Eyadg_Garro/cv?sc_o=mxb_p" target="_blank">
                             <i class="fab fa-xing"></i>
       
                           </a>
                       </li>
 
                       <li class="list-inline-item">
-                          <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/diego992">
+                          <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/diego992" target="_blank">
                               <i class="fab fa-github"></i>
         
                             </a>
