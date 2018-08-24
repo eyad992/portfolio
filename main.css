@@ -8,10 +8,6 @@
   opacity: 0.8;
 }
 
-.nni {
-  left: 50%;
-}
-
 .nav-name {
   color: #e40707;
   font-family: "Gloria Hallelujah";
@@ -149,6 +145,10 @@
 
 #projects-section .blacksoon {
   color: black;
+}
+
+#hireme-section {
+  padding: 20px;
 }
 
 #hireme-section .mod-header {
