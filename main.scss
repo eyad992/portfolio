@@ -79,6 +79,20 @@ $font-family2:'Courgette';
         font-family:$font-family2;
 
     }
+
+    .skill-container {
+     justify-content: space-evenly;
+     margin-left: 0;
+     margin-right: 0;
+
+     .skill-wrap {
+        flex: 0 0 50%;   
+        @media screen and (min-width: 768px) {
+          flex: 0 0 13%;
+      }
+     }
+    }
+
     .skillbar {
         position: relative;
         display: block;
@@ -109,137 +123,7 @@ $font-family2:'Courgette';
         text-transform: uppercase;
         display: inline-block;
     }
-    
-    .skill-bar-percent {
-        float: right;
-        display: inline-block;
-        color: #323232;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
 
-
-//     .skills-title{
-//         color:$primary-color;
-//     }
-//     .skills-text{
-//         color:$text-white;
-//     }
-
-//     .hc{
-//         padding: 10px;
-//     }
-//         .prohtmlcss::before{
-//             content:"HTMLCSS";
-//             color:$text-white;
-//             font-weight: $font-weights;
-//     }
-//         .prohtmlcss::after{
-//             margin: 10px;
-//         }
-//         .htcss{
-//             height: 10%;
-//         }
-//     .js{
-//         padding: 10px;
-//     }
-//     .projs::before{
-//         content: "JAVASCRIPT";
-//         color:$text-white;
-//         font-weight: $font-weights;
-
-//     }
-//     .nodjs{
-//         padding: 10px;
-//     }
-//     .pronode::before{
-//         content:"NODE.JS";
-//         color: $text-white;
-//         font-weight: $font-weights;
-
-//     }
-//     .gith{
-//         padding: 10px;
-//     }
-//     .progit::before{
-//         content:"Git & GitHub";
-//         color:$text-white;
-//         font-weight: $font-weights;
-
-//  }
-
-//  .hd{
-//     padding: 10px;
-// }
-//     .prohtmlcss::before{
-//         content:"HTML&CSS";
-//         color:$text-white;
-//         font-weight: $font-weights;
-//         padding-right: 10px;
-// }
-// .sass-scss{
-//     padding: 10px;
-// }
-// .prosac::before{
-//     content: "SASS & SCSS";
-//     color:$text-white;
-//     font-weight: $font-weights;
-//     padding-right: 10px;
-
-
-// }
-// .bootst{
-//     padding: 10px;
-// }
-// .proboot::before{
-//     content:"Bootstrap";
-//     color: $text-white;
-//     font-weight: $font-weights;
-//     padding-right:10px;
-
-// }
-// .jav-jq{
-//     padding: 10px;
-// }
-// .projaq::before{
-//     content:"JavaScript & jQuery";
-//     color:$text-white;
-//     font-weight: $font-weights;
-//     padding-right:10px;
-
-
-// }
-// .aja{
-//     padding:10px;
-// }
-// .proaja{
-//     content:"Ajax";
-//     color:$text-white;
-//     font-weight: $font-weights;
-//     padding-right:10px;
-// }
-// .aja{
-//     padding:10px;
-// }
-// .proaja{
-//     content:"Ajax";
-//     color:$text-white;
-//     font-weight: $font-weights;
-//     padding-right:10px;
-// }
-
-    // .progress .progress-bar{
-    //     background-color:grey;
-    // }
-    // .progress-animate{
-    //     transition: width 2s ease-in-out;
-    // }
-    // .progress-bar{
-    //     justify-content: center;
-    //     text-align: center;
-    //     color:#fff;
-    // }
 .progtext{
     color: $primary-color;
     padding-top: 25px;
