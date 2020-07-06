@@ -19,7 +19,6 @@
   background-size: cover;
   background-attachment: fixed;
 }
-
 #home-section .dark-overlay {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -28,11 +27,9 @@
   width: 100%;
   min-height: 700px;
 }
-
 #home-section .home-inner {
   padding-top: 150px;
 }
-
 #home-section .big-wel {
   font-family: "Gloria Hallelujah";
 }
@@ -40,12 +37,10 @@
 #about-me {
   background-color: white;
 }
-
 #about-me .about {
   color: #e40707;
   font-family: "Courgette";
 }
-
 #about-me .about-text {
   color: black;
 }
@@ -54,11 +49,9 @@
   color: #e40707;
   font-family: "Courgette";
 }
-
 #whatido-section .what-text {
   color: black;
 }
-
 #whatido-section .lisst {
   color: black;
 }
@@ -66,7 +59,6 @@
 #useless {
   width: 100%;
 }
-
 #useless .carousel-inner {
   padding: 40px;
 }
@@ -74,20 +66,30 @@
 #skills-section {
   background-color: white;
 }
-
 #skills-section .skills-title {
   color: #e40707;
   padding-bottom: 30px;
   font-family: "Courgette";
 }
-
+#skills-section .skill-container {
+  justify-content: space-evenly;
+  margin-left: 0;
+  margin-right: 0;
+}
+#skills-section .skill-container .skill-wrap {
+  flex: 0 0 50%;
+}
+@media screen and (min-width: 768px) {
+  #skills-section .skill-container .skill-wrap {
+    flex: 0 0 13%;
+  }
+}
 #skills-section .skillbar {
   position: relative;
   display: block;
   width: 100%;
   margin-bottom: 30px;
 }
-
 #skills-section .skillbar-bar:before {
   background: #eee;
   content: "";
@@ -96,15 +98,12 @@
   width: 100%;
   z-index: -1;
 }
-
 #skills-section .skillbar-bar {
   height: 3px;
   width: 0px;
   background: #323232;
-  -webkit-transition-property: width, background-color;
   transition-property: width, background-color;
 }
-
 #skills-section .skillbar-title {
   color: #323232;
   font-size: 11px;
@@ -112,16 +111,6 @@
   text-transform: uppercase;
   display: inline-block;
 }
-
-#skills-section .skill-bar-percent {
-  float: right;
-  display: inline-block;
-  color: #323232;
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
 #skills-section .progtext {
   color: #e40707;
   padding-top: 25px;
@@ -130,19 +119,15 @@
 #projects-section .projects-title {
   color: #e40707;
 }
-
 #projects-section .projects1-4 {
   padding: 80px;
 }
-
 #projects-section .redmore {
   color: #e40707;
 }
-
 #projects-section .blackcoming {
   color: black;
 }
-
 #projects-section .blacksoon {
   color: black;
 }
@@ -150,47 +135,38 @@
 #hireme-section {
   padding: 20px;
 }
-
 #hireme-section .mod-header {
   background-color: black;
 }
-
 #hireme-section .small-x {
   color: #e40707;
 }
-
 #hireme-section .mod-title {
   color: #e40707;
   text-align: center;
   margin-left: 9em;
 }
-
 #hireme-section .mod-footer {
   background-color: black;
   color: #e40707;
 }
-
 #hireme-section .fadee {
   background-color: black;
 }
-
 #hireme-section .contact-us-list-1 {
   list-style-type: none;
   padding: 10px;
 }
-
 #hireme-section .te1 {
   color: white;
   font-size: 20px;
   padding: 10px;
 }
-
 #hireme-section .em1 {
   color: white;
   font-size: 20px;
   padding: 10px;
 }
-
 #hireme-section .wht1 {
   color: white;
   font-size: 20px;
@@ -200,30 +176,25 @@
 #contact-me {
   color: rgba(0, 0, 0, 0.7);
 }
-
 #contact-me .contact-title {
   color: #e40707;
   font-family: "Courgette";
 }
-
 #contact-me .contact-us-list {
   color: white;
   font-family: "Courgette";
   list-style-type: none;
 }
-
 #contact-me .te {
   color: white;
   font-size: 20px;
   padding: 10px;
 }
-
 #contact-me .em {
   color: white;
   font-size: 20px;
   padding: 10px;
 }
-
 #contact-me .wht {
   color: white;
   font-size: 20px;
@@ -233,9 +204,9 @@
 #main-footer {
   padding-top: 50px;
 }
-
 #main-footer .h3 {
   font-family: "Gloria Hallelujah";
   color: #e40707;
 }
+
 /*# sourceMappingURL=main.css.map */
