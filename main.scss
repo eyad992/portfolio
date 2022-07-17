@@ -4,6 +4,7 @@ $primary-color:rgb(228, 7, 7);
 $dark-overlay:rgba(0,0,0,0.7);
 $text-white:rgb(0,0,0);
 $font-weights:bold;
+$font-size:1.25rem;
 $font-family1:'Gloria Hallelujah';
 $font-family2:'Courgette';
 .bod{
@@ -12,7 +13,7 @@ $font-family2:'Courgette';
 }
 
 .navbar{
-    border-bottom:$primary-color 3px solid;
+    border-bottom:$primary-color 0.188rem solid;
     opacity: 0.8;
 }
 .nav-name{
@@ -21,7 +22,7 @@ $font-family2:'Courgette';
 }
 #home-section{
     background: url('./images/ss.jpg') no-repeat;
-    min-height: 700px;
+    min-height: 43.75rem;
     background-size: cover;
     background-attachment: fixed;
 
@@ -32,10 +33,10 @@ $font-family2:'Courgette';
         top:0;
         left:0;
         width: 100%;
-        min-height:700px;
+        min-height: 43.75rem;
     }
     .home-inner{
-        padding-top: 150px;
+        padding-top: 9.375rem;
     }
     .big-wel{
         font-family: $font-family1;
@@ -68,14 +69,14 @@ $font-family2:'Courgette';
 #useless{
     width: 100%;
     .carousel-inner{
-        padding: 40px;
+        padding: 2.5rem;
     }
 }
 #skills-section{
     background-color:white;
     .skills-title {
         color: $primary-color;
-        padding-bottom: 30px;
+        padding-bottom: 1.87rem;
         font-family:$font-family2;
 
     }
@@ -97,28 +98,28 @@ $font-family2:'Courgette';
         position: relative;
         display: block;
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 1.87rem;
     }
     
     .skillbar-bar:before {
         background: #eee;
         content: "";
-        height: 3px;
+        height: 0.18rem;
         position: absolute;
         width: 100%;
         z-index: -1;
     }
     
     .skillbar-bar {
-        height: 3px;
-        width: 0px;
+        height: 0.18rem;
+        width: 0;
         background: #323232;
         transition-property: width, background-color;
     }
     
     .skillbar-title {
         color: #323232;
-        font-size: 11px;
+        font-size: 0.688rem;
         font-weight: 600;
         text-transform: uppercase;
         display: inline-block;
@@ -126,7 +127,7 @@ $font-family2:'Courgette';
 
 .progtext{
     color: $primary-color;
-    padding-top: 25px;
+    padding-top: 1.56rem;
 }
 }
 #projects-section{
@@ -134,7 +135,7 @@ $font-family2:'Courgette';
         color:$primary-color;
     }
     .projects1-4{
-        padding: 80px;
+        padding: 5rem;
     }
     .redmore{
         color:$primary-color;
@@ -147,7 +148,7 @@ $font-family2:'Courgette';
     }
 }
 #hireme-section{
-    padding: 20px;
+    padding: 1.25rem;
     .mod-header{
         background-color: black;
     }
@@ -168,22 +169,22 @@ $font-family2:'Courgette';
     }
     .contact-us-list-1{
         list-style-type: none;
-        padding: 10px;
+        padding: 0.625rem;
     }
     .te1{
         color: white;
-        font-size: 20px;
-        padding: 10px;
+        font-size: $fontSize;
+        padding: 0.625rem;
     }
     .em1{
         color: white;
-        font-size: 20px;
-        padding: 10px;
+        font-size: $fontSize;
+        padding: 0.625rem;
     }
     .wht1{
         color: white;
-        font-size: 20px;
-        padding: 10px;
+        font-size: $fontSize;
+        padding: 0.625rem;
     }
 }
 #contact-me{
@@ -200,26 +201,26 @@ $font-family2:'Courgette';
         }
     .te{
         color: white;
-        font-size: 20px;
-        padding:10px;
+        font-size: $fontSize;
+        padding: 0.625rem;
     }
     .em{
         color:white;
-        font-size: 20px;
-        padding:10px;
+        font-size: $fontSize;
+        padding: 0.625rem;
 
     }
     .wht{
         color:white;
-        font-size: 20px;
-        padding:10px;
+        font-size: $fontSize;
+        padding: 0.625rem;
 
     }
 
     }
 
 #main-footer{
-    padding-top:50px;
+    padding-top: 3.125rem;
     .h3{
         font-family: $font-family1;
         color: $primary-color;
