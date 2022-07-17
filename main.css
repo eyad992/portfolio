@@ -1,21 +1,21 @@
 .bod {
-  background: black;
-  color: white;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .navbar {
-  border-bottom: #e40707 3px solid;
+  border-bottom: rgb(228, 7, 7) 0.188rem solid;
   opacity: 0.8;
 }
 
 .nav-name {
-  color: #e40707;
+  color: rgb(228, 7, 7);
   font-family: "Gloria Hallelujah";
 }
 
 #home-section {
   background: url("./images/ss.jpg") no-repeat;
-  min-height: 700px;
+  min-height: 43.75rem;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -25,50 +25,50 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 700px;
+  min-height: 43.75rem;
 }
 #home-section .home-inner {
-  padding-top: 150px;
+  padding-top: 9.375rem;
 }
 #home-section .big-wel {
   font-family: "Gloria Hallelujah";
 }
 
 #about-me {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 #about-me .about {
-  color: #e40707;
+  color: rgb(228, 7, 7);
   font-family: "Courgette";
 }
 #about-me .about-text {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #whatido-section .what-title {
-  color: #e40707;
+  color: rgb(228, 7, 7);
   font-family: "Courgette";
 }
 #whatido-section .what-text {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 #whatido-section .lisst {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #useless {
   width: 100%;
 }
 #useless .carousel-inner {
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 #skills-section {
   background-color: white;
 }
 #skills-section .skills-title {
-  color: #e40707;
-  padding-bottom: 30px;
+  color: rgb(228, 7, 7);
+  padding-bottom: 1.87rem;
   font-family: "Courgette";
 }
 #skills-section .skill-container {
@@ -88,96 +88,99 @@
   position: relative;
   display: block;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 1.87rem;
 }
 #skills-section .skillbar-bar:before {
   background: #eee;
   content: "";
-  height: 3px;
+  height: 0.18rem;
   position: absolute;
   width: 100%;
   z-index: -1;
 }
 #skills-section .skillbar-bar {
-  height: 3px;
-  width: 0px;
+  height: 0.18rem;
+  width: 0;
   background: #323232;
   transition-property: width, background-color;
 }
 #skills-section .skillbar-title {
   color: #323232;
-  font-size: 11px;
+  font-size: 0.688rem;
   font-weight: 600;
   text-transform: uppercase;
   display: inline-block;
 }
 #skills-section .progtext {
-  color: #e40707;
-  padding-top: 25px;
+  color: rgb(228, 7, 7);
+  padding-top: 1.56rem;
 }
 
 #projects-section .projects-title {
-  color: #e40707;
+  color: rgb(228, 7, 7);
 }
 #projects-section .projects1-4 {
-  padding: 80px;
+  padding: 5rem;
 }
 #projects-section .redmore {
-  color: #e40707;
+  color: rgb(228, 7, 7);
 }
 #projects-section .blackcoming {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 #projects-section .blacksoon {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #hireme-section {
-  padding: 20px;
+  padding: 1.25rem;
 }
 #hireme-section .mod-header {
   background-color: black;
 }
 #hireme-section .small-x {
-  color: #e40707;
+  color: rgb(228, 7, 7);
 }
 #hireme-section .mod-title {
-  color: #e40707;
+  color: rgb(228, 7, 7);
   text-align: center;
   margin-left: 9em;
 }
 #hireme-section .mod-footer {
   background-color: black;
-  color: #e40707;
+  color: rgb(228, 7, 7);
 }
 #hireme-section .fadee {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 #hireme-section .contact-us-list-1 {
   list-style-type: none;
-  padding: 10px;
+  padding: 0.625rem;
+}
+#hireme-section .contact-us-list-1 .whatsapp1 {
+  padding-left: 2.5rem;
 }
 #hireme-section .te1 {
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 0.625rem;
 }
 #hireme-section .em1 {
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 0.625rem;
 }
 #hireme-section .wht1 {
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 0.625rem;
 }
 
 #contact-me {
   color: rgba(0, 0, 0, 0.7);
 }
 #contact-me .contact-title {
-  color: #e40707;
+  color: rgb(228, 7, 7);
   font-family: "Courgette";
 }
 #contact-me .contact-us-list {
@@ -185,28 +188,29 @@
   font-family: "Courgette";
   list-style-type: none;
 }
+#contact-me .contact-us-list .whatsapp {
+  padding-left: 2.5rem;
+}
 #contact-me .te {
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 0.625rem;
 }
 #contact-me .em {
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 0.625rem;
 }
 #contact-me .wht {
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.25rem;
+  padding: 0.625rem;
 }
 
 #main-footer {
-  padding-top: 50px;
+  padding-top: 3.125rem;
 }
 #main-footer .h3 {
   font-family: "Gloria Hallelujah";
-  color: #e40707;
-}
-
-/*# sourceMappingURL=main.css.map */
+  color: rgb(228, 7, 7);
+}/*# sourceMappingURL=main.css.map */

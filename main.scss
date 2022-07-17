@@ -170,20 +170,23 @@ $font-family2:'Courgette';
     .contact-us-list-1{
         list-style-type: none;
         padding: 0.625rem;
-    }
+        .whatsapp1{
+            padding-left: 2.5rem;
+          }
+    }  
     .te1{
         color: white;
-        font-size: $fontSize;
+        font-size: $font-size;
         padding: 0.625rem;
     }
     .em1{
         color: white;
-        font-size: $fontSize;
+        font-size: $font-size;
         padding: 0.625rem;
     }
     .wht1{
         color: white;
-        font-size: $fontSize;
+        font-size: $font-size;
         padding: 0.625rem;
     }
 }
@@ -197,22 +200,25 @@ $font-family2:'Courgette';
         color:white;
         font-family:$font-family2;
         list-style-type: none;
-    
+        
+        .whatsapp{
+            padding-left: 2.5rem;
+          }
         }
     .te{
         color: white;
-        font-size: $fontSize;
+        font-size: $font-size;
         padding: 0.625rem;
     }
     .em{
         color:white;
-        font-size: $fontSize;
+        font-size: $font-size;
         padding: 0.625rem;
 
     }
     .wht{
         color:white;
-        font-size: $fontSize;
+        font-size: $font-size;
         padding: 0.625rem;
 
     }
